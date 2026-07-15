@@ -15,6 +15,3 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-🔭 I’m currently working on building a distributed, low-latency LLM orchestrated CLI tool that does predictive analytics on your codebase
-
-- 🌱 I’m currently learning RAG, Vectorization, Chunking Strategy
