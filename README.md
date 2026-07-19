@@ -15,5 +15,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-I am a senior software engineer 👨🏻‍💻
+I am a senior software engineer 👨🏻‍💻 working in fintech.
 
