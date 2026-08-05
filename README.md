@@ -16,3 +16,4 @@ Here are some ideas to get you started:
 - ⚡ Fun fact: ...
 -->
 I am a senior software engineer 👨🏻‍💻 working in fintech 🏦
+I am currently working on building age tic applications.
