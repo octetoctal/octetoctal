@@ -21,206 +21,326 @@ Here are some ideas to get you started:
 I am a senior software engineer 👨🏻‍💻 working in fintech 🏦
 I am currently working on building agentic applications. 
 -->
-# octetoctal
 
-**Utkarsh Srivastava**
-Software Engineer
+# `octetoctal`
 
-`interfaces / systems / retrieval / tooling`
+```console
+$ ssh github@octetoctal
 
-```text
-              ┌─────────────────────┐
-              │      octetoctal     │
-              │        /0377        │
-              └──────────┬──────────┘
-                         │
-             ┌───────────┼───────────┐
-             │           │           │
-         interfaces   systems    retrieval
-             │           │           │
-             └─────── tooling ───────┘
-                         │
-                  intelligent systems
+Connecting to octetoctal...
+Loading engineering profile...
+Mounting /workbench...
+Indexing /systems...
+Ready.
+
+octetoctal@github:~$ _
 ```
 
-I build software around the places where abstractions start leaking.
+```text
+┌─────────────────────────────────────────────────────────────┐
+│  octetoctal                                                 │
+│  software engineer                                          │
+│                                                             │
+│  interfaces · systems · retrieval · tooling · applied-ai    │
+│                                                             │
+│                                                         0377│
+└─────────────────────────────────────────────────────────────┘
+```
+
+```console
+octetoctal@github:~$ whoami
+Utkarsh Srivastava
+
+octetoctal@github:~$ cat /etc/profile
+I build software where abstractions start leaking.
 
 Frontend systems that have to survive production.
+Search systems where retrieval quality matters more than demos.
+Developer tools that turn repetitive work into deterministic workflows.
+Content pipelines where structure, files and rendering disagree.
 
-Search systems where retrieval quality matters more than the demo.
+And AI systems where the interesting problem isn't calling the model —
 
-Developer tools that turn repetitive engineering work into deterministic workflows.
-
-Content pipelines where files, structure and rendering disagree.
-
-AI-assisted systems where the interesting problem is not calling the model —
-it is deciding **what the model should know, when it should act, and how its output can be trusted.**
+it's deciding what it should know,
+when it should act,
+and how its output can be trusted.
+```
 
 ---
 
-## `/system`
+## `~/system`
+
+```console
+octetoctal@github:~$ tree ~/system
+```
 
 ```text
-software
+system
 ├── interfaces
-│   ├── React
-│   ├── Angular
-│   ├── TypeScript
-│   └── accessibility
+│   ├── typescript
+│   ├── javascript
+│   ├── react
+│   ├── angular
+│   ├── rxjs
+│   ├── accessibility
+│   └── performance
 │
-├── applications
-│   ├── Node.js
-│   ├── APIs
-│   ├── GraphQL
-│   └── content platforms
+├── application
+│   ├── node
+│   ├── rest
+│   ├── graphql
+│   └── content-platforms
 │
 ├── retrieval
-│   ├── lexical search
-│   ├── semantic search
-│   ├── hybrid retrieval
+│   ├── lexical-search
+│   ├── semantic-search
+│   ├── hybrid-retrieval
 │   ├── metadata
-│   └── RAG
+│   ├── ranking
+│   └── rag
 │
 ├── tooling
-│   ├── CLI
-│   ├── repository analysis
+│   ├── cli
+│   ├── repository-analysis
 │   ├── automation
-│   └── developer experience
+│   └── developer-experience
 │
 └── platform
-    ├── AWS
-    ├── CI/CD
-    ├── Git
-    └── production readiness
+    ├── aws
+    ├── ci-cd
+    ├── git
+    └── production-readiness
 ```
 
 ---
 
-## `/principles`
+## `~/workbench`
+
+```console
+octetoctal@github:~$ ls -la ~/workbench
+```
 
 ```text
-01  make state explicit
-02  keep boundaries boring
-03  retrieve before generating
-04  accessibility belongs in the architecture
-05  automation should reduce uncertainty
-06  understand the failure mode
-07  optimize for whoever reads the code next
+drwxr-xr-x  morphic/
+drwxr-xr-x  queryplane/
+drwxr-xr-x  hedge-ledger/
+drwxr-xr-x  riskframe/
 ```
 
----
+### `morphic/`
 
-## `/workbench`
+```console
+octetoctal@github:~/workbench$ ./morphic inspect
+```
 
-### `morphic`
+```text
+repository
+   │
+   ├──► scan
+   │
+   ├──► understand
+   │
+   ├──► reason
+   │
+   ├──► remediate
+   │
+   └──► verify
+
+status: experimenting
+domain: developer tooling / security / static analysis
+```
 
 Repository-aware engineering tooling from the terminal.
 
-```text
-scan
-  ↓
-understand
-  ↓
-reason
-  ↓
-remediate
-  ↓
-verify
-```
-
-`cli` `static-analysis` `security` `developer-tools`
+`cli` `security` `static-analysis` `developer-tools`
 
 ---
 
-### `queryplane`
+### `queryplane/`
 
-Experiments in search systems that combine lexical and semantic evidence.
-
-```text
-                    ┌─ lexical
-query ──► intent ───┼─ semantic
-                    ├─ metadata
-                    └─ filters
-                         │
-                         ▼
-                      ranking
-                         │
-                         ▼
-                      evidence
+```console
+octetoctal@github:~/workbench$ queryplane search \
+  --lexical \
+  --semantic \
+  --metadata \
+  --rerank
 ```
 
-`search` `information-retrieval` `rag` `ranking`
+```text
+query
+ │
+ ├── lexical ─────┐
+ ├── semantic ────┤
+ ├── metadata ────┤──► candidate fusion ──► ranking ──► evidence
+ └── constraints ─┘
+```
+
+Search experiments around hybrid retrieval, query understanding and evidence ranking.
+
+`information-retrieval` `search` `rag` `ranking`
 
 ---
 
-### `hedge-ledger`
+### `hedge-ledger/`
 
-Exploring financial workflows as composable software primitives.
+```console
+octetoctal@github:~/workbench$ hedge-ledger trace
+```
 
 ```text
-positions ──► exposure ──► hedge ──► ledger
+position
+   │
+   ▼
+exposure
+   │
+   ▼
+hedge
+   │
+   ▼
+ledger
 ```
+
+Experiments in representing financial workflows as composable software primitives.
 
 `finance` `cli` `systems`
 
 ---
 
-### `riskframe`
+### `riskframe/`
+
+```console
+octetoctal@github:~/workbench$ riskframe analyze portfolio.json
+```
+
+```text
+loading positions.............. ok
+calculating exposures.......... ok
+evaluating risk................ ok
+questioning assumptions........ always
+```
 
 A laboratory for portfolio analytics, risk models and backend architecture.
 
-`algorithms` `financial-systems` `APIs`
+`algorithms` `financial-systems` `apis`
 
 ---
 
-## `/currently`
+## `/proc/thoughts`
 
-Exploring the engineering underneath:
-
-```text
-hybrid retrieval
-tool-using language models
-AI-native developer tooling
-financial platforms
-parsers and intermediate representations
-large-scale frontend architecture
+```console
+octetoctal@github:~$ cat /proc/thoughts
 ```
 
-The technologies will change.
-
-The problems remain interesting.
+```text
+[01] make state explicit
+[02] keep boundaries boring
+[03] retrieve before generating
+[04] accessibility belongs in the architecture
+[05] automate the repetitive, not the understanding
+[06] understand the failure mode
+[07] abstractions are useful until they leak
+[08] optimize for whoever reads the code next
+```
 
 ---
 
-## `/engineering-log`
+## `/var/log/curiosity`
 
-A good repository should make four things obvious:
-
-```text
-why it exists
-how it works
-what was traded off
-what breaks next
+```console
+octetoctal@github:~$ tail -f /var/log/curiosity
 ```
 
-Working code proves that something can be built.
-
-The decisions around it reveal the engineer.
+```text
+[exploring] hybrid information retrieval
+[exploring] tool-using language models
+[exploring] ai-native developer tooling
+[exploring] financial systems
+[exploring] parsers + intermediate representations
+[exploring] large-scale frontend architecture
+[exploring] systems that explain themselves
+...
+```
 
 ---
 
-```text
-$ whoami
-octetoctal
+## `man octetoctal`
 
-$ cat philosophy
-build it
-understand it
-break the abstraction
-understand that too
-
-$ echo $STATUS
-still exploring
+```console
+octetoctal@github:~$ man octetoctal
 ```
+
+```text
+OCTETOCTAL(1)                 ENGINEERING                  OCTETOCTAL(1)
+
+NAME
+       octetoctal — software engineer interested in systems that
+       remain understandable after they become complicated.
+
+SYNOPSIS
+       octetoctal [--build] [--inspect] [--break] [--understand]
+
+DESCRIPTION
+       Works across interfaces, application architecture, retrieval,
+       developer tooling and intelligent systems.
+
+       Prefers architecture over novelty.
+       Evidence over confident generation.
+       Explicit state over hidden magic.
+       Useful automation over unnecessary abstraction.
+
+BUGS
+       Frequently disappears into technical rabbit holes.
+
+SEE ALSO
+       git(1), grep(1), ssh(1), coffee(8)
+```
+
+---
+
+## `~/engineering-philosophy`
+
+```console
+octetoctal@github:~$ ./why-does-this-repo-exist
+```
+
+Every serious project should answer:
+
+```text
+01 ── why does this exist?
+02 ── how does it work?
+03 ── what decisions shaped it?
+04 ── what was traded off?
+05 ── where does it fail?
+06 ── what changes at 10× scale?
+```
+
+```console
+octetoctal@github:~$ git log --oneline -- philosophy
+```
+
+```text
+8f4e11a  understand the system, not just the API
+71a90cd  make failure modes visible
+0377abc  break abstraction responsibly
+1c82e64  reduce magic
+0badc0d  add more curiosity
+```
+
+---
+
+```console
+octetoctal@github:~$ echo $MISSION
+
+build things.
+understand why they work.
+understand why they fail.
+make the next version better.
+
+octetoctal@github:~$ █
+```
+
+<div align="right">
 
 `0377`
+
+</div>
