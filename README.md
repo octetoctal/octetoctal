@@ -43,7 +43,6 @@ octetoctal@github:~$ _
 │                                                             │
 │  interfaces · systems · retrieval · tooling · applied-ai    │
 │                                                             │
-│                                                         0377│
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -114,7 +113,7 @@ system
 
 ---
 
-## `~/workbench`
+<!-- ## `~/workbench`
 
 ```console
 octetoctal@github:~$ ls -la ~/workbench
@@ -224,7 +223,7 @@ A laboratory for portfolio analytics, risk models and backend architecture.
 `algorithms` `financial-systems` `apis`
 
 ---
-
+-->
 ## `/proc/thoughts`
 
 ```console
