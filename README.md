@@ -288,7 +288,6 @@ DESCRIPTION
        Useful automation over unnecessary abstraction.
 
 ```
-
 ---
 
 ## `~/engineering-philosophy`
