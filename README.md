@@ -282,16 +282,11 @@ DESCRIPTION
        Works across interfaces, application architecture, retrieval,
        developer tooling and intelligent systems.
 
-       Prefers architecture over novelty.
+       Prefer architecture over novelty.
        Evidence over confident generation.
        Explicit state over hidden magic.
        Useful automation over unnecessary abstraction.
 
-BUGS
-       Frequently disappears into technical rabbit holes.
-
-SEE ALSO
-       git(1), grep(1), ssh(1), coffee(8)
 ```
 
 ---
