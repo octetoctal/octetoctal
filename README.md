@@ -73,7 +73,7 @@ and how its output can be trusted.
 octetoctal@github:~$ tree ~/system
 ```
 
-```text
+<!-- ```text
 system
 ├── interfaces
 │   ├── typescript
@@ -110,7 +110,7 @@ system
     ├── git
     └── production-readiness
 ```
-
+-->
 ---
 
 <!-- ## `~/workbench`
