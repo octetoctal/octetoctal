@@ -67,13 +67,13 @@ and how its output can be trusted.
 
 ---
 
-## `~/system`
+<!-- ## `~/system`
 
 ```console
 octetoctal@github:~$ tree ~/system
 ```
 
-<!-- ```text
+ ```text
 system
 ├── interfaces
 │   ├── typescript
