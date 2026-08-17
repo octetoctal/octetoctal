@@ -224,7 +224,7 @@ A laboratory for portfolio analytics, risk models and backend architecture.
 
 ---
 -->
-## `/proc/thoughts`
+<!—- ## `/proc/thoughts`
 
 ```console
 octetoctal@github:~$ cat /proc/thoughts
@@ -240,7 +240,7 @@ octetoctal@github:~$ cat /proc/thoughts
 [07] abstractions are useful until they leak
 [08] optimize for whoever reads the code next
 ```
-
+—->
 ---
 
 ## `/var/log/curiosity`
