@@ -223,7 +223,6 @@ A laboratory for portfolio analytics, risk models and backend architecture.
 `algorithms` `financial-systems` `apis`
 
 ---
--->
 ## `/proc/thoughts`
 
 ```console
