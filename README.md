@@ -22,5 +22,5 @@ I am a senior software engineer 👨🏻‍💻 working in fintech 🏦
 I am currently working on building agentic applications. 
 -->
 
-## Hi, there!
+## Hi, there! 🙋🏻‍♂️
 
