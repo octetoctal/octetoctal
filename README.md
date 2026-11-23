@@ -4,6 +4,7 @@
 Welcome to octetoctal's code repository.
 
 I am a senior software engineer 👨🏻‍💻 working in fintech 🏦
+
 I am currently working on building agentic applications.
 
 <!--
