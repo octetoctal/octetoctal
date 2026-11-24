@@ -3,10 +3,6 @@
 
 Welcome to octetoctal's code repository.
 
-I am a senior software engineer 👨🏻‍💻 working in fintech 🏦
-
-I am currently working on building agentic applications.
-
 <!--
 **octetoctal/octetoctal** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
